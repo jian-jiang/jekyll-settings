@@ -1,0 +1,14 @@
+# Site settings
+title: Jianan Jiang's personal site
+email: adamjiang0914@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Website, Civil Engineering, Translation and more.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jianan-jiang.com" # the base hostname & protocol for your site
+twitter_username: foreverj
+github_username:  jian-jiang
+
+# Build settings
+markdown: kramdown
+
+highlighter: rouge
