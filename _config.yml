@@ -12,3 +12,6 @@ github_username:  jian-jiang
 markdown: kramdown
 
 highlighter: rouge
+
+gems:
+- jekyll-compass
