@@ -7,10 +7,17 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <div class="content">
+      {{ content }}
+      <div id="disqus_thread"></div>
+      <style media="screen">
+      #disqus_thread{
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+        padding:20px;
+      }
+      </style>
     </div>
 
     {% include footer.html %}
