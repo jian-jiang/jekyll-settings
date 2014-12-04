@@ -9,6 +9,9 @@ twitter_username: foreverj
 github_username:  jian-jiang
 
 # Build settings
+
+exclude: [*.bat]
+
 markdown: kramdown
 
 highlighter: rouge
