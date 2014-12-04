@@ -56,7 +56,9 @@ strong{
 
 .nav{
   width:100%;
-  height:100%;
+  height:auto;
+  min-height:100%;
+  overflow-y:scroll;
 
   @media screen and (min-width:$break-three){
     float:left;
@@ -89,7 +91,7 @@ strong{
 }
 .RSS{
   text-align:center;
-  bottom:0;
+  margin-top:15%;
   padding-bottom:10px;
   position:absolute;
   width:100%;
@@ -229,7 +231,15 @@ strong{
     float:right;
     width:80%;
   }
-
+  #disqus_thread{
+    padding:10px;
+    @media screen and (min-width:$break-three){
+      width:80%;
+      margin-left:10%;
+      margin-right:10%;
+      padding:20px;
+    }
+  }
   .article{
     &:before{
       content:"";
@@ -355,8 +365,10 @@ code {
 }
 
 .highlight{
-  margin-left:10%;
-  margin-right:20%;
+  @media screen and (min-width:$break-four){
+    margin-left:10%;
+    margin-right:20%;
+  }
 }
 
 pre {
