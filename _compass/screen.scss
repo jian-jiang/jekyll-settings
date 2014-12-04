@@ -61,6 +61,7 @@ strong{
   @media screen and (min-width:$break-three){
     float:left;
     width:20%;
+    position:fixed;
   }
 
   .avatar{
@@ -220,12 +221,12 @@ strong{
 
 .content{
   width:100%;
-  height:100%;
+  height:auto;
   min-height:100%;
   background:$lightgrey;
 
   @media screen and (min-width:$break-three){
-    float:left;
+    float:right;
     width:80%;
   }
 
